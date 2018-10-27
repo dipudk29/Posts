@@ -1,0 +1,21 @@
+title: DIGA Blog
+
+    description: Electron based Desktop Blogging System
+
+    author: 'Deepak'
+
+    github_username: dipudk29
+
+    theme: jekyll-theme-tactile
+
+    url: 'https://dipudk29.github.io'
+
+    baseurl: './Posts'
+
+    paginate: 10
+
+    plugins:
+
+    - jekyll-assets
+
+    - jekyll-paginate

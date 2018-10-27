@@ -1,0 +1,23 @@
+---
+
+layout: default
+
+---
+<div>
+    <h1>STARTING YOUR FIRST BLOG IN 2018: THE “HOW TO” GUIDE</h1>
+    <img src="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/master/img/bg-index.jpg?raw=true"/>
+    <p>Diga Desktop blogging allows you to write, edit and publish posts/articles at your own pace without going through the arduous job of learning a Markup Language.</p><p>Diga provides built in template for an Index page and support all <a href="https://pages.github.com/themes/">github themes</a>.</p>
+    <blockquote><p>Enjoy Blogging!</p></blockquote>
+</div>
+<p>&nbsp;</p><p>&nbsp;</p><p>
+
+<ul>
+{% for post in paginator.posts %}
+   <li class="post-item">
+    <p class="author">
+        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+    </p>
+  <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>  
+   </li>
+{% endfor %}
+</ul>
