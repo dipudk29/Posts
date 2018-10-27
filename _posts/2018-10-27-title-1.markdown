@@ -1,0 +1,3 @@
+<span> <a  onclick="window.history.back()">Home</a>/{{ page.title }}</span>
+<p>&nbsp;</p>
+<h1>Title 1</h1><p>Kishan Tube</p>
